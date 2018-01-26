@@ -1,0 +1,33 @@
+
+h1, p, li {
+	font-family: Calibri;
+}
+h1 { 
+	color: red;
+	border-bottom: 1px dashed black; 
+}
+.ingress {
+	font-weight: bold;
+}
+
+#min-lista {
+	list-style: none;
+	padding-left: 0;
+}
+#min-lista button {
+	opacity: .5;
+	float: right;
+	
+}
+#min-lista li {
+	line-height: 1.5em;
+	padding-left: 1em; 
+
+}
+#min-lista li:hover {
+	background: #ccc;
+
+}
+#min-lista li:hover button {
+	opacity: 1;
+}
